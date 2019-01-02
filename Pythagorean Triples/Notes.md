@@ -6,3 +6,10 @@ A Pythagorean triple is a triple of positive integers (a, b, c) where a<sup>2</s
 * We call a triple (a, b, c) **primitive** when the three integers have no common factor.
 * if d is **the greatest common divisor** of all three terms then (a/d, b/d, c/d) is a primitive triple and the original triple is a scalar multiple of this,
    * so finding all Pythagorean triples is basically the same as finding all primitive Pythagorean triples.
+
+# Lemma 1.1
+
+For a Pythagorean triple (a, b, c), the following properties are equivalent:
+* (1) a, b, and c have no common factor, i.e., the triple is primitive,
+* (2) a, b, and c are pairwise relatively prime,
+* (3) two of a, b, and c are relatively prime.
